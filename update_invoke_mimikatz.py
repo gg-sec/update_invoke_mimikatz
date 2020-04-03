@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Add the newest version of Mimikatz to Invoke-Mimikatz, a powershell version of mimikatz
 # Get the newest version von Benjamin Delphis Github first and extract it to this directory
 
