@@ -11,10 +11,10 @@ import base64
 
 
 
-with open("./Win32/mimikatz.exe", "rb") as f:
+with open("./mimikatz_trunk/Win32/mimikatz.exe", "rb") as f:
     win32 = base64.b64encode(f.read()).decode()
 
-with open("./x64/mimikatz.exe", "rb") as f:
+with open("./mimikatz_trunk/x64/mimikatz.exe", "rb") as f:
     x64 = base64.b64encode(f.read()).decode()
 
 
